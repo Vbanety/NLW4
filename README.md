@@ -64,7 +64,8 @@ $ > DICA: SELECT * FROM USERS WHERE EMAIL = "EMAIL", substitui o método ".findO
 
 - yarn typeorm migration:create -n CreateSurveys
 
-## Testes Automatizados
+### DIA 3
+#### Testes Automatizados
 
 1 - Testes unitários
 
@@ -101,12 +102,12 @@ alterar:
 
 - alterar linha 96 do jest.config de undefined para: > preset: "ts-jest",
 
-
 ** Install libs
 
 - yarn add supertest @types/supertest -D
 
-@Aula 4
+### DIA 4
+
 ** Instal libs
 
 - yarn typeorm migration:create -n CreateSurveysUsers
@@ -117,7 +118,7 @@ alterar:
 
 - yarn add handlebars
 
-@Aula 5
+### DIA 5
 
 ** Install libs
 
