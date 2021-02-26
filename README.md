@@ -45,7 +45,7 @@ ormconfig.json
 
 linha: > "migrations": ["./src/database/migrations/**.ts"]
 
-##OBS> Comando para desfazer a ultima migration criada no banco
+#### OBS > Comando para desfazer a ultima migration criada no banco
 - yarn typeorm migration:revert
 
 - HABILITANDO FUNÇOES NO TSCONFIG.JSON
