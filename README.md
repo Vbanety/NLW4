@@ -1,10 +1,12 @@
 # NLW4
-# Passos de configuração e preparação do ambiente
+# <h1 align="center">Passos de configuração e preparação do ambiente</h1>
+
+<img src="./api/assets/trilha_node.png" align="center">
 
 
 * Instalando dependencias
 
-** OBS: Dentro da pasta API
+### OBS: Dentro da pasta API
 - yarn add express 
 - yarn add @types express -D
 - yarn add typescript -D (instalando o typescript)
@@ -14,7 +16,7 @@
 - Alterar tsconfig:
  inserir: "dev": "ts-node-dev src/server.ts" > --transpile-only --ignore-watch node_modules (após ts-node-dev)
 
- ** Dia 2
+ ### Dia 2
  - yarn add typeorm reflect-metadata
  - yarn add sqlite3 / > opcional(--save)
  - adicionando typeorm e utilizando a cli
@@ -54,13 +56,13 @@ linha: > "migrations": ["./src/database/migrations/**.ts"]
 "emitDecoratorMetadata": true, MUDAR PARA TRUE
 "strictPropertyInitialization": false, DESCOMENTAR
 
-** Instalar biblioteca
+### Instalar biblioteca
 - yarn add uuid
 - yarn add @types/uuid -D
 
 $ > DICA: SELECT * FROM USERS WHERE EMAIL = "EMAIL", substitui o método ".findOne", e vice-versa. 
 
-** Install libs
+### Install libs
 
 - yarn typeorm migration:create -n CreateSurveys
 
