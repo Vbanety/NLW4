@@ -1,7 +1,7 @@
 # NLW4
 # <h1 align="center">Passos de configuração e preparação do ambiente</h1>
 
-<img src="./api/assets/trilha_node.png" align="center">
+<img src="https://i.ibb.co/n7hVjzB/trilha-node.png" align="center">
 
 
 * Instalando dependencias
