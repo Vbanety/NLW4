@@ -123,7 +123,7 @@ alterar:
 
 - yarn add yup
 
-DICAAA > comando pkill node -> é para cancelar todas as tasks que está utilizando
+DICAAA > comando pkill node -> é para cancelar todas as tasks que está rodando no servidor.
 
 Depois de efetuar os testes : remover >    return response.status(400).json({error: "Vaidation Failed!"}) do 
 package.json
