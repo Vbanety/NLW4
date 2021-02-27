@@ -1,8 +1,6 @@
-# NLW4
+<img src="https://i.ibb.co/n7hVjzB/trilha-node.png" align="center">
+
 # <h1 align="center">Passos de configuração e preparação do ambiente</h1>
-
-<img src="./api/assets/trilha_node.png" align="center">
-
 
 * Instalando dependencias
 
@@ -47,7 +45,7 @@ ormconfig.json
 
 linha: > "migrations": ["./src/database/migrations/**.ts"]
 
-##OBS> Comando para desfazer a ultima migration criada no banco
+#### OBS > Comando para desfazer a ultima migration criada no banco
 - yarn typeorm migration:revert
 
 - HABILITANDO FUNÇOES NO TSCONFIG.JSON
@@ -66,7 +64,8 @@ $ > DICA: SELECT * FROM USERS WHERE EMAIL = "EMAIL", substitui o método ".findO
 
 - yarn typeorm migration:create -n CreateSurveys
 
-## Testes Automatizados
+### DIA 3
+#### Testes Automatizados
 
 1 - Testes unitários
 
@@ -103,12 +102,12 @@ alterar:
 
 - alterar linha 96 do jest.config de undefined para: > preset: "ts-jest",
 
-
 ** Install libs
 
 - yarn add supertest @types/supertest -D
 
-@Aula 4
+### DIA 4
+
 ** Instal libs
 
 - yarn typeorm migration:create -n CreateSurveysUsers
@@ -119,13 +118,13 @@ alterar:
 
 - yarn add handlebars
 
-@Aula 5
+### DIA 5
 
 ** Install libs
 
 - yarn add yup
 
-DICAAA > comando pkill node -> é para cancelar todas as tasks que está utilizando
+DICAAA > comando pkill node -> é para cancelar todas as tasks que está rodando no servidor.
 
 Depois de efetuar os testes : remover >    return response.status(400).json({error: "Vaidation Failed!"}) do 
 package.json
